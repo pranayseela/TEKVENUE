@@ -6,25 +6,11 @@
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Narrow &mdash; 100% Free Fully Responsive HTML5 Template by FREEHTML5.co</title>
+	<title>TEKVENUE</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Free HTML5 Template by FREEHTML5.CO" />
 	<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
 	<meta name="author" content="FREEHTML5.CO" />
-
-  <!-- 
-	//////////////////////////////////////////////////////
-
-	FREE HTML5 TEMPLATE 
-	DESIGNED & DEVELOPED by FREEHTML5.CO
-		
-	Website: 		http://freehtml5.co/
-	Email: 			info@freehtml5.co
-	Twitter: 		http://twitter.com/fh5co
-	Facebook: 		https://www.facebook.com/fh5co
-
-	//////////////////////////////////////////////////////
-	 -->
 
   	<!-- Facebook and Twitter integration -->
 	<meta property="og:title" content=""/>
@@ -61,7 +47,16 @@
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
-
+        <script>
+            function sendMail() {
+                var link = "mailto:krishna_kk@yahoo.com"
+                    + "?cc=krishna_kk@yahoo.com"
+                    + "&subject=" + escape("This is from tekvenue.com")
+                    + "&body=" + escape(document.getElementById('message').value)
+                    ;
+                window.location.href = link;
+            }
+        </script>
 	</head>
 	<body>
 	<div class="box-wrap">
@@ -139,7 +134,8 @@
 						</div>
 						<div class="form-group row">
 							<div class="col-md-12 field">
-								<input type="submit" id="submit" class="btn btn-primary" value="Send Message">
+								<!--<input type="submit" id="submit" class="btn btn-primary" value="Send Message">-->
+                                <button class="btn btn-primary" id="submit" onclick="sendMail(); return false">Send Message</button>
 							</div>
 						</div>
 					</form>
