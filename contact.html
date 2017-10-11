@@ -52,7 +52,12 @@
                 var link = "mailto:krishna_kk@yahoo.com"
                     + "?cc=krishna_kk@yahoo.com"
                     + "&subject=" + escape("This is from tekvenue.com")
-                    + "&body=" + escape(document.getElementById('message').value)
+                    + "&body="
+                    + escape("FirstName :" + document.getElementById('firstname').value + "\n"+
+                             "LastName :" + document.getElementById('lastname').value + "\n" +
+                             "Email :" + document.getElementById('email').value + "\n" +
+                             "Phone :" + document.getElementById('phone').value + "\n" +
+                             "Message :" + document.getElementById('message').value)
                     ;
                 window.location.href = link;
             }
