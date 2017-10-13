@@ -15,7 +15,8 @@ body {
     font-family: "Open Sans", Arial, serif;
     line-height: 1.8;
     font-size: 20px;
-    background: #f9f7f7;
+    /*background: #f9f7f7;*/
+    background: #004d00;
     font-weight: 300;
 }
 
@@ -764,7 +765,7 @@ input[type="text"] {
     }
 
 #footer {
-    padding: 60px 0 40px;
+    /*padding: 60px 0 40px;*/
 }
 
     #footer p {
@@ -818,7 +819,7 @@ input[type="text"] {
 }
 
     .btn.btn-primary {
-        background: #a980cd;
+        background: #cc0000;
         color: #fff;
         border: none !important;
         border: 2px solid transparent !important;
