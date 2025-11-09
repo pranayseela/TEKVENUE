@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
@@ -42,6 +42,7 @@
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
 
     <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/site.css">
 
 
     <!-- Modernizr JS -->
@@ -53,7 +54,7 @@
 
 </head>
 
-<body style="background-color:black;">
+<body class="has-dark-bg">
     <div class="box-wrap">
         <!--<header role="banner" id="fh5co-header" style="background-color:black; margin-bottom:0em; padding-bottom:1em;">
             <div class="container">
@@ -78,37 +79,36 @@
             </div>
         </header>-->
 
-        <header role="banner" id="fh5co-header" style="background-color:black; margin-bottom:0em; padding-bottom:1em;">
-            <div class="container" style="margin-left:0px;">
-                <nav class="navbar navbar-default" style="background-color:black;>
-                    <div class=" row" style="background-color:black;">
-                    <div class="col-md-3">
-                        <div class="fh5co-navbar-brand" style="line-height:0;">
-                            <img src="images/logo.jpg" alt="TEKVENUE" height="42" width="42">
-                            <a class="fh5co-logo" href="index.html" style="color:orange;">&nbsp; TEKVENUE</a>
-                            <p style="font-size:12px; color:deeppink; margin-left:72px;">The Place For The Technology</p>
+        <header role="banner" id="fh5co-header" class="site-header">
+            <div class="container">
+                <nav class="navbar navbar-default" role="navigation" aria-label="Main navigation">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-3">
+                            <div class="fh5co-navbar-brand site-brand">
+                                <a class="site-brand__link" href="index.html">
+                                    <img src="images/logo.jpg" alt="TEKVENUE logo" class="site-brand__logo">
+                                    <span class="site-brand__name">TEKVENUE</span>
+                                </a>
+                                <p class="site-brand__tagline">The Place For The Technology</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-9 main-nav">
+                            <ul class="nav site-nav__list">
+                                <li><a href="index.html">Home</a></li>
+                                <li class="active"><a href="about.html" aria-current="page">About Us</a></li>
+                                <li><a href="services.html">Services</a></li>
+                                <!--<li><a href="product.html">Products</a></li>-->
+                                <li><a href="contact.html">Contact Us</a></li>
+                            </ul>
                         </div>
                     </div>
-                    <div class="col-md-9 main-nav">
-                        <ul class="nav text-right">
-                            <li><a href="index.html" style="color:orange;">HOME</a></li>
-                            <li><a href="about.html" style="color:cornflowerblue;">About Us</a></li>
-                            <li><a href="services.html" style="color:deeppink;">Services</a></li>
-                            <!--<li><a href="product.html" style="color:white;">Products</a></li>-->
-                            <li><a href="contact.html" style="color:green;">Contact Us</a></li>
-                        </ul>
-                    </div>
+                </nav>
             </div>
-            </nav>
-    </div>
-    </header>
+        </header>
 
     <!-- END: header -->
     <div id="fh5co-intro-section" class="section-overlay animate-box" data-animate-effect="fadeIn">
-        <!-- <div class="fh5co-intro-cover text-center" data-stellar-background-ratio="0.5" style="background-image: url(images/img_large_1.jpg);"> -->
-        <img src="images/img_large_14.jpg" alt="TEKVENUE" height="400" width="100%">
-    </div>
-
+        <img src="images/img_large_14.jpg" alt="Technology strategy session" class="hero-image">
     </div>
     <div id="fh5co-media-section">
         <div class="container">
@@ -119,7 +119,7 @@
                 </div>
             </div>-->
             <div class="row">
-                <div class="col-md-7 animate-box" style="width:100%; align-content:center;">
+                    <div class="col-md-7 animate-box" style="width:100%; align-content:center;">
                     <div class="fh5co-cover" style="background-color:#3ea050">
                         <div class="desc" style="position:relative;background:#0f3a8a">
                             <h1 style="color:white;text-decoration:underline;">Our Approach</h1>
@@ -141,7 +141,7 @@
                                 <li style="color:white;">IT Recruiting and Staff augmentation</li>
                             </ul>
                             <p>We have a group of business savvy technology staff who understand the driving force for the business word. Our goal is to fully explore the technology potentials to maximize an organization’s business goal.</p>
-                            </br>
+                            <br>
                             <h1 style="color:white;">Application and Solution Development</h1>
                             <ul>
                                 <li style="color:white;">Transform a traditional software into a Software-As-A-Service offering.</li>
@@ -149,24 +149,24 @@
                                 <li style="color:white;">Business Intelligence and Data Warehouse Development, develop state-of-art dash board and reporting framework to aid management decision and customer satisfaction improvement.</li>
                             </ul>
 
-                            </br>
+                            <br>
                             <h1 style="color:white;">Information Technology Planning and Assessment</h1>
                             <ul>
                                 <li style="color:white;">Transform a traditional software into a Software-As-A-Service offering.</li>
                                 <li style="color:white;">Transform a legacy platform or solution to meet new technical for the new business environment.</li>
                                 <li style="color:white;">Business Intelligence and Data Warehouse Development, develop state-of-art dash board and reporting framework to aid management decision and customer satisfaction improvement.</li>
                             </ul>
-                            </br>
+                            <br>
                             <h1 style="color:white;">Project Management</h1>
                             <p>We can help to define a project in the initial stage, defining high level scope, cost and duration and calculating RIO for the "go" or 'no-go" decision. We collect business requirements and the associated priority from stakeholders and target end users to define the "to-be" system look-and-feel and functional behaviors. Further more, we will: ​</p>
                             <ol>
                                 <li style="color:white;">Perform end-to-end project management, from the initialization to closing.</li>
                                 <li style="color:white;">Manage partial of a project.</li>
                             </ol>
-                            </br>
+                            <br>
                             <h1 style="color:white;">IT Recruiting and Staffing Services</h1>
                             <p>We have special campus recruiting to hire brightest college graduate students in surrounding areas. Our key competency in recruiting is having a structure hiring process to evaluate both technical skills and non-technical skills. We have a standard technical questionnaire to test individual candidates technical capabilities and behavior-based questionnaire to obtain candidates non-technical competencies to better meet our client's working environment and culture.</p>
-                            </br>
+                            <br>
                             <h1 style="color:white;">Testing Services</h1>
                             <p>We can be your Quality Assurance department to ensure your product meet the industry standard quality goal.</p>
 
